@@ -1,0 +1,5 @@
+23:51:49.681 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xda59bead005e6107
+23:51:53.732 [TestNG-tests-2] INFO  main.java.Academy.E2EProject.Base - driver initialized
+23:51:57.546 [TestNG-tests-1] INFO  main.java.Academy.E2EProject.Base - driver initialized
+23:53:12.881 [TestNG-tests-2] INFO  main.java.Academy.E2EProject.Base - Website launched
+23:53:29.832 [TestNG-tests-2] INFO  main.java.Academy.E2EProject.Base - text successfully matched

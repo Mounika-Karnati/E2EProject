@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T21:56:08 IST" name="Suite" finished-at="2022-03-25T21:59:00 IST" duration-ms="172118">
+    <groups>
+    </groups>
+    <test started-at="2022-03-25T21:56:08 IST" name="HomePage" finished-at="2022-03-25T21:58:10 IST" duration-ms="122261">
+      <class name="test.java.Academy.E2EProject.HomePage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:test.java.Academy.E2EProject.HomePage@24b52d3e]" started-at="2022-03-25T21:56:08 IST" name="intialize" finished-at="2022-03-25T21:56:25 IST" duration-ms="17075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:test.java.Academy.E2EProject.HomePage@24b52d3e]" started-at="2022-03-25T21:56:25 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-03-25T21:57:15 IST" duration-ms="50007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:test.java.Academy.E2EProject.HomePage@24b52d3e]" started-at="2022-03-25T21:57:16 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-03-25T21:58:07 IST" duration-ms="51299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghgfg@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.java.Academy.E2EProject.HomePage@24b52d3e]" started-at="2022-03-25T21:58:07 IST" name="closeDriver" finished-at="2022-03-25T21:58:10 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.java.Academy.E2EProject.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2022-03-25T21:58:18 IST" name="Title Validation" finished-at="2022-03-25T21:59:00 IST" duration-ms="42476">
+      <class name="test.java.Academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:test.java.Academy.E2EProject.ValidateTitle@1bb9aa43]" started-at="2022-03-25T21:58:18 IST" name="intialize" finished-at="2022-03-25T21:58:58 IST" duration-ms="40567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="checkHeader()[pri:0, instance:test.java.Academy.E2EProject.ValidateTitle@1bb9aa43]" started-at="2022-03-25T21:58:58 IST" name="checkHeader" finished-at="2022-03-25T21:58:59 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkTitle()[pri:0, instance:test.java.Academy.E2EProject.ValidateTitle@1bb9aa43]" started-at="2022-03-25T21:58:59 IST" name="checkTitle" finished-at="2022-03-25T21:58:59 IST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.java.Academy.E2EProject.ValidateTitle@1bb9aa43]" started-at="2022-03-25T21:58:59 IST" name="closeDriver" finished-at="2022-03-25T21:59:00 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.java.Academy.E2EProject.ValidateTitle -->
+    </test> <!-- Title Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
